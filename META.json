@@ -1,0 +1,53 @@
+{
+   "abstract" : "Plugin for Mojo::Shortcut to use short#action like invocations",
+   "author" : [
+      "alexbyk <alex@alexbyk.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.028, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-Shortcut",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Perl::Critic" : "1.02",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojolicious" : "5.0",
+            "perl" : "v5.20.0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/alexbyk/mojo-shortcut/issues"
+      },
+      "repository" : {
+         "web" : "http://github.com/alexbyk/mojo-shortcut"
+      }
+   },
+   "version" : "0.003"
+}
+

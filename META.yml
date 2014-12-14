@@ -1,0 +1,22 @@
+---
+abstract: 'Plugin for Mojo::Shortcut to use short#action like invocations'
+author:
+  - 'alexbyk <alex@alexbyk.com>'
+build_requires:
+  Test::More: '0.88'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.028, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Mojolicious-Plugin-Shortcut
+requires:
+  Mojolicious: '5.0'
+  perl: v5.20.0
+resources:
+  bugtracker: http://github.com/alexbyk/mojo-shortcut/issues
+  repository: http://github.com/alexbyk/mojo-shortcut
+version: '0.003'
